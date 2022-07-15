@@ -18,7 +18,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [github.com/banece/stats-preview-card-component-main](https://github.com/banece/stats-preview-card-component-main)
-- Live Site URL: []()
+- Live Site URL: [banece.github.io/stats-preview-card-component-main](https://banece.github.io/stats-preview-card-component-main/)
 
 ## My process
 
@@ -27,16 +27,15 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Grid
 - Mobile first
 
 ### What I learned
 
-
+Using HTML img tag with srcset to use different images at different viewport sizes. Better responsivness on mobile until breakpoint ( resizing of content )
 
 ### Continued development
 
-
+Continuing on improving my responsive design.
 
 ### Useful resources
 
