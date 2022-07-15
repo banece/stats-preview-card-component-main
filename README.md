@@ -17,7 +17,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [github.com/banece/stats-preview-card-component-main](https://github.com/banece/stats-preview-card-component-main)
 - Live Site URL: []()
 
 ## My process
