@@ -19,4 +19,123 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: var(--dark-blue);
     color: var(--white);
+    text-align: center;
+    font-size: 15px;
+    padding: 0 4rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--desat-blue);
+    max-width: 654px;
+}
+
+div {
+    background-color: var(--violet);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+    background-color: var(--violet);
+}
+
+.main {
+    padding: 0 1.75rem;
+}
+
+span {
+    color: var(--violet);
+}
+
+h1 {
+    padding-top: 1.8rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+hgroup > p {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    font-family: 'Lexend Deck', sans-serif;
+    color: var(--trans-white);
+    letter-spacing: 0.05rem;
+    padding-top: 1rem;
+}
+
+.main > section {
+    padding-top: 2rem;
+}
+
+.stats p {
+    font-variant: small-caps;
+    font-size: 0.75rem;
+    color: var(--transer-white);
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.25rem;
+}
+
+.main strong {
+    display: block;
+    font-variant: normal;
+    font-size: 1.1rem;
+    letter-spacing: normal;
+    color: var(--white);
+}
+
+@media screen and (min-width: 1040px) {
+    body {
+        text-align: left;
+        padding: 0;
+        
+    }
+
+    article {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        width: fit-content;
+        max-width: none;
+    }
+
+    .main {
+        padding: 2rem 2.5rem 0 4rem
+    }
+
+    hgroup > p {
+        font-size: 0.85rem;
+        max-width: 45ch;
+        line-height: 1.7;
+        margin-top: 0.9rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        max-width: 18ch;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .stats p {
+        padding-top: 2rem;
+        margin-bottom: 0;
+        font-size: 0.9rem;
+        margin-right: 3rem;
+    }
+
+    .stats strong {
+        font-size: 1.3rem;
+    }
 }
